@@ -10,5 +10,5 @@ public class Alumno {
     private int NP;
     private String grupo;
     private Horario horario;
-    //hola
+    //que tal?
 }
