@@ -19,7 +19,7 @@ public class Exercici11 {
         System.out.println(n/10);
         System.out.println(n/1);
         
-        System.out.println("-------------------------------------------------------------");
+        System.out.println("------------------------------------------------------------");
         
         System.out.println(j%10);
         System.out.printf("%02d %n",j%100);
@@ -27,7 +27,7 @@ public class Exercici11 {
         System.out.printf("%04d %n",j%10000);
         System.out.printf("%05d %n",j);
      
-        System.out.println("-------------------------------------------------------------");
+        System.out.println("------------------------------------------------------------");
         
         System.out.println(n%10);
     }
