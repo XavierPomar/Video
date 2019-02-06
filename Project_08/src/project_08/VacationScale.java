@@ -6,7 +6,7 @@ public class VacationScale {
     int yearsOfService;
     
     public void setVacationScale (){
-    vacationDays = new int[7];
+    vacationDays = new int[10];
     vacationDays[0] = 10;
     vacationDays[1] = 15;
     vacationDays[2] = 15;
@@ -14,6 +14,9 @@ public class VacationScale {
     vacationDays[4] = 20;
     vacationDays[5] = 20;
     vacationDays[6] = 25;
+    vacationDays[7] = 25;
+    vacationDays[8] = 30;
+    vacationDays[9] = 30;
     }
     
      public void displayVacationDays (){
@@ -22,7 +25,7 @@ public class VacationScale {
      } else if (yearsOfService <= 6){
          System.out.println("Dies de vacacions: " + vacationDays[yearsOfService]);
      } else {
-         System.out.println("Dies de vacacions: " + vacationDays[6]);
+         System.out.println("Dies de vacacions: " + vacationDays[8]);
      }
    }   
 }
