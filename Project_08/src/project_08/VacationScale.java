@@ -6,7 +6,7 @@ public class VacationScale {
     int yearsOfService;
     
     public void setVacationScale (){
-    vacationDays = new int[10];
+    vacationDays = new int[11];
     vacationDays[0] = 10;
     vacationDays[1] = 15;
     vacationDays[2] = 15;
@@ -17,6 +17,7 @@ public class VacationScale {
     vacationDays[7] = 25;
     vacationDays[8] = 30;
     vacationDays[9] = 30;
+    vacationDays[10] = 35;
     }
     
      public void displayVacationDays (){
