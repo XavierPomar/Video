@@ -1,0 +1,27 @@
+1.
+	a. Desenvolupa una funció per crear una matriu NxN amb números aleatoris.
+	b. Desenvolupa una funció per mostrar el contingut d’aquesta funció per pantalla.
+	c. Desenvolupa un algorisme per recórrer els elements de la matriu en sentit horari.
+
+2. A partir d’un string, sense utilitzar les funcions proporcionades per PHP, calcula el número 
+d’aparicions de cada paraula i mostra-les per pantalla en ordre descendent.
+
+3. Desenvolupa un programa per representar el joc Enfonsar la Flota. Crea una matriu 10x10 i 
+col·loca-hi els següents vaixells: un de 4 caselles, dos de 3 caselles, tres de 2 caselles i quatre 
+d’1 casella.
+Per fer-ho, calcula la posició inicial del vaixell de manera aleatòria, així com la seva orientació, 
+tenint en compte que els diferents vaixells no es poden superposar ni estar en contacte.
+
+
+
+4. Crea les classes Vaixell (eslora, tipus, matrícula, any) i Propietari (nom, llicència, Vaixell).
+
+5. Desenvolupa un script per crear una sèrie de vaixells i els seus propietaris.
+
+6. A partir de l’script anterior, completa els següents apartats:
+	a. Desenvolupa una funció per veure tots els vaixells.
+	b. Desenvolupa una funció per veure tots els propietaris.
+	c. A partir d’un form, crea un vaixell nou i el seu propietari.
+	d. Desenvolupa un filtre per veure els vaixells d’un mateix tipus.
+	e. Desenvolupa un filtre per veure els propietaris que tenen una mateixa llicència.
+	f. Adapta la classe Propietari per a que pugui tenir més d’un vaixell.
